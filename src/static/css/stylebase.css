@@ -1,15 +1,7 @@
-body {
-    background-color: #eefffe;
-
+body{
+    background-color: #f0f3f3;
 }
 
-.copyright{
-    display: block;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+body { 
     text-align: center;
-    color: rgb(0,0,0);
-    font-size: 8;
 }
