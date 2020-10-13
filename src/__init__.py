@@ -6,4 +6,9 @@ app = Flask(__name__)
 app.debug = True
 
 from .views import *
+from .home.views import *
+from .projects.views import *
+from .contact.views import *
+
+
 
