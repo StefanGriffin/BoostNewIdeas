@@ -9,6 +9,8 @@ verify_ssl = true
 flask = "*"
 pylint-flask = "*"
 gunicorn = "*"
+pylint = "*"
+requests = "*"
 
 [requires]
 python_version = "3.9"
