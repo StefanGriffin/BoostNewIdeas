@@ -7,20 +7,24 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
         <meta name="google" content="notranslate">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Data Analysis</title>
     </head>
     <body> 
-   
-        <!-- <h3>test 11032020</h3> 
 
-        Today is {{ name }} -->
 
-        <form action="/greet" method="post">
-            <input autocomplete="off" autofocus name="name" placeholder="Name"type="text">
-            <input type="submit">
+        <h1>Register</h1>
+        <form action="/register" method="post">
+          <input autocomplete="off" autofocus name="name" placeholder="Name" type="text">
+          <select name="project">
+              <option disabled selected value="">Projects</option>
+              {% for project in projects %}
+                <option value="{{ project }}">{{ project }}</option>
+              {% endfor %}
+          </select>
+          <input type="submit" value="Register">
         </form>
 
     </body>
