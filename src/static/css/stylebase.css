@@ -1,21 +1,18 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-body { 
+
+body {
     background: #e3edf7;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 50;
-    min-height: 100vh;
+
 }
 
 
 header {
     text-align: center;
     background-color: #333;
-    color: #fff;
     padding: 10px;
 }
 

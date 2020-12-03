@@ -4,4 +4,4 @@ from src import app
 
 @app.route("/contact/")
 def contact():
-    return render_template('contactfb.html')
+    return render_template('contact.html')
