@@ -12,12 +12,12 @@ body {
 
 header {
     text-align: center;
-    background-color: #333;
+    background-color: rgb(196, 224, 247);
     padding: 10px;
 }
 
-header h3 {
-    color: rgb(211, 133, 133);
+header h4 {
+    color: rgb(216, 127, 127);
 }
 
 main {

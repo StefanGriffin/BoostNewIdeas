@@ -10,29 +10,29 @@
         <title>Contact</title>
     </head>
     <body> 
+        <br>
+        <br>
 
-        <div class="container my-c">
-            <div class="row my-r">
-                <div class="col">
-                     <h3>Resume: available upon request!</h3> 
-
-                    <p>
-                        Please don`t forget to add your information in your first email
-            
-                    </p>
-            
+        <div class="container my-container">
+            <div class="row my-row">
+                <div class="col-md-8 col-sm-6 my-col">
+                    <h3>Resume: available upon request!</h3> 
+        
                     <p>
                         <a href = "mailto: stephan.gribincea@gmail.com">Request here</a>
-                       
+                    
                     </p>
+               </div>
+
+
+               <div class="col-md-8 col-sm-6 my-co">
+                <a href="{{ url_for('socialmedia') }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Social Media</a>
                 </div>
 
-                <div class="col">
-
-                    {% include 'contactfb.html' %}
-
-                </div>
-
+            </div>
+        </div>
+             
+                
             </div>
         </div>
     </body>

@@ -1,12 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
+
+
+.a {
+    text-align: center;
 }
 
-.my-c {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 
+
+.b {
+    text-align: center;
 }
