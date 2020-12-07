@@ -4,6 +4,10 @@ body {
 
 }
 
+.container {
+   image-rendering: center;
+}
+
 .a {
     text-align: center;
 }
